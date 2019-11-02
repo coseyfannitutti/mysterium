@@ -3414,105 +3414,6 @@ Connection ~ 1450 1400
 Wire Wire Line
 	1450 2000 1175 2000
 Connection ~ 1450 2000
-$Comp
-L keyboard_parts:ssd1306 OLED1
-U 1 1 5DE3F16D
-P 8175 9625
-F 0 "OLED1" H 8503 9671 50  0000 L CNN
-F 1 "ssd1306" H 8503 9580 50  0000 L CNN
-F 2 "cftkb:ssd1306 128x32 oled" H 8175 9625 50  0001 C CNN
-F 3 "" H 8175 9625 50  0001 C CNN
-	1    8175 9625
-	1    0    0    -1  
-$EndComp
-Text GLabel 8125 9575 0    50   Input ~ 0
-scl
-Text GLabel 8125 9475 0    50   Input ~ 0
-sda
-$Comp
-L power:+5V #PWR0118
-U 1 1 5DE4465D
-P 7775 9600
-F 0 "#PWR0118" H 7775 9690 20  0001 C CNN
-F 1 "+5V" H 7825 9700 30  0000 C CNN
-F 2 "" H 7775 9600 60  0000 C CNN
-F 3 "" H 7775 9600 60  0000 C CNN
-	1    7775 9600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8125 9675 7775 9675
-Wire Wire Line
-	7775 9675 7775 9600
-$Comp
-L power:GND #PWR0119
-U 1 1 5DE63DBA
-P 7775 9775
-F 0 "#PWR0119" H 7775 9525 50  0001 C CNN
-F 1 "GND" H 7780 9602 50  0000 C CNN
-F 2 "" H 7775 9775 50  0001 C CNN
-F 3 "" H 7775 9775 50  0001 C CNN
-	1    7775 9775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8125 9775 7775 9775
-Text GLabel 6200 8150 3    50   Input ~ 0
-scl
-Text GLabel 6300 8150 3    50   Input ~ 0
-sda
-$Comp
-L Device:R_Small R9
-U 1 1 5DE858B3
-P 6300 8050
-F 0 "R9" V 6375 8050 50  0000 C CNN
-F 1 "10k" V 6300 8050 50  0000 C CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6300 8050 50  0001 C CNN
-F 3 "~" H 6300 8050 50  0001 C CNN
-	1    6300 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 5DE86BB7
-P 6200 8050
-F 0 "R8" V 6125 8050 50  0000 C CNN
-F 1 "10k" V 6200 8050 50  0000 C CNN
-F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 6200 8050 50  0001 C CNN
-F 3 "~" H 6200 8050 50  0001 C CNN
-	1    6200 8050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 8200 6200 8150
-Wire Wire Line
-	5800 8200 6200 8200
-Wire Wire Line
-	6300 8300 6300 8150
-Wire Wire Line
-	5800 8300 6300 8300
-$Comp
-L power:+5V #PWR0120
-U 1 1 5DB1CBAB
-P 6200 7950
-F 0 "#PWR0120" H 6200 8040 20  0001 C CNN
-F 1 "+5V" H 6250 8050 30  0000 C CNN
-F 2 "" H 6200 7950 60  0000 C CNN
-F 3 "" H 6200 7950 60  0000 C CNN
-	1    6200 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0121
-U 1 1 5DB1D580
-P 6300 7950
-F 0 "#PWR0121" H 6300 8040 20  0001 C CNN
-F 1 "+5V" H 6350 8050 30  0000 C CNN
-F 2 "" H 6300 7950 60  0000 C CNN
-F 3 "" H 6300 7950 60  0000 C CNN
-	1    6300 7950
-	1    0    0    -1  
-$EndComp
 Text GLabel 5800 8400 2    50   Input ~ 0
 row0
 Text GLabel 5800 8500 2    50   Input ~ 0
@@ -3561,4 +3462,6 @@ Text GLabel 5800 6500 2    50   Input ~ 0
 col2
 Text GLabel 5800 6400 2    50   Input ~ 0
 col0
+NoConn ~ 5800 8200
+NoConn ~ 5800 8300
 $EndSCHEMATC
