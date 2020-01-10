@@ -5,7 +5,8 @@
 
 Kits available at [cftkb.com](https://www.cftkb.com)
 
-![discipline](./doc/images/mysterium-kicad.png)
+![mysterium](./doc/images/mysterium.jpg)
+![](./doc/images/mysterium-kicad.png)
 ![](./doc/images/mysterium-top.png)
 ![](./doc/images/mysterium-bottom.png)
 ![](./doc/images/mysterium-bottom-plate.png)
