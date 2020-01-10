@@ -1,6 +1,6 @@
-# DISCIPLINE
+# MYSTERIUM
 
-![discipline](./images/discipline-kicad.png)
+![mysterium](./images/mysterium-kicad.png)
 
 [Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d7f3c2a478b13088d8e48a9/1568619566647/DISCIPLINE+BUILD+GUIDE.pdf)
 
@@ -10,4 +10,4 @@
 
 [Bootloader](./bootloader)
 
-[BOM (Parts List)](https://octopart.com/bom-tool/W4rybyut)
+[BOM (Parts List)](https://octopart.com/bom-tool/wr8C8imk)
