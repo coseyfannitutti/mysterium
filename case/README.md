@@ -1,4 +1,5 @@
 # Lasercut Acrylic Case with POM Plate
+
 ##This is case is OPTIONAL and not required. The kit has everything you need for a fully functional keyboard.
 ***This case uses a different plate and is NOT compatible with the plate included in the kit.
 If you have already soldered switches, you will need to desolder them and swap the plate.***
