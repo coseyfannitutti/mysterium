@@ -23,6 +23,6 @@ If you have already soldered switches, you will need to desolder them and swap t
 2. 12x m2x14mm standoffs
 3. 4x m2x8mm standoffs
 
-![mysterium](./doc/images/mysterium-case-top.jpg)
-![](./doc/images/mysterium-case-side.jpg)
-![](./doc/images/mysterium-case-bottom.jpg)
+![mysterium](../doc/images/mysterium-case-top.jpg)
+![](../doc/images/mysterium-case-side.jpg)
+![](../doc/images/mysterium-case-bottom.jpg)
