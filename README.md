@@ -5,6 +5,8 @@
 
 Kits available at [cftkb.com](https://www.cftkb.com)
 
+[Optional Lasercut Acrylic Case](./case)
+
 ![mysterium](./doc/images/mysterium.jpg)
 ![](./doc/images/mysterium-kicad.png)
 ![](./doc/images/mysterium-top.png)
