@@ -8,7 +8,7 @@ If you have already soldered switches, you will need to desolder them and swap t
 
 ## Part Dimensions/Thickness (Top to Bottom)
 1. mysterium-top-1.dxf - 363.7 x 162.6 mm - ***2mm thickness clear acrylic***
-2. mysterium-top-2.dxf ***x2 needed*** - 363.7 x 162.6 mm - ***3mm thickness clear acrylic*** Matte or color recomended for winkeyless version to hide plate hole.
+2. mysterium-top-2.dxf ***x2 needed*** - 363.7 x 162.6 mm - ***3mm thickness clear acrylic (Matte or color recomended for winkeyless version to hide plate hole.)***
 3. mysterium-plate.dxf - 363.7 x 162.6 mm - ***1.5mm thickness DELRIN(POM)*** Can be black or white.
 4. mysterium-open-layer.dxf - 363.7 x 162.6 mm - ***4.5mm thickness clear acrylic***
 5. mysterium-closed-layer.dxf - 363.7 x 162.6 mm - ***3mm thickness clear acrylic***
