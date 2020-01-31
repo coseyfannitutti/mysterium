@@ -6,7 +6,7 @@
 
 [QMK Toolbox Flashing Guide (Recommended)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e21542cd3279550c3b74a89/1579242541022/MYSTERIUM+FLASHING+GUIDE.pdf)
 
-[Command Line Flashing Guide (Advanced)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e21544bd9164408298cda01/1579242571805/MYSTERIUM+FLASHING+GUIDE+-+COMMAND+LINE.pdf)
+[Command Line Flashing Guide (Advanced)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e33a3895318fc520982d4a1/1580442505724/MYSTERIUM+FLASHING+GUIDE+-+COMMAND+LINE.pdf)
 
 [Bootloader](./bootloader)
 
