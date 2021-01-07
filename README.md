@@ -7,8 +7,6 @@
 
 **[Optional High Profile Lasercut Acrylic Case](./case)**
 
-# Burning Bootloader
-
 ![mysterium](./doc/images/mysterium.jpg)
 ![](./doc/images/mysterium-kicad.png)
 ![](./doc/images/mysterium-top.png)
