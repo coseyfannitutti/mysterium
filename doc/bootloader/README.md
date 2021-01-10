@@ -61,6 +61,7 @@ This is for people who are new to AVR microprocessors and just want to use a bas
 * The layout of ```mysterium_example.hex``` looks like this
    * Layer 0 (default) 
    <img src="./images/example-layer-0.png" alt="drawing" width="600">
+   
    * Layer 1 (active while holding the FN key)
    <img src="./images/example-layer-1.png" alt="drawing" width="600">
 
