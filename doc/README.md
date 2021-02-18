@@ -2,7 +2,7 @@
 
 ![mysterium](./images/mysterium-kicad.png)
 
-**[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e5fc8299979957341bf18a8/1583335468613/MYSTERIUM+BUILD+GUIDE.pdf)**
+**[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5faf630b1cc5cc6622868843/1605329678506/MYSTERIUM+V2+BUILD+GUIDE.pdf)**
 
 **[QMK Toolbox Flashing Guide (Recommended)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e4771362bab65763e8d1e4c/1581740343418/MYSTERIUM+FLASHING+GUIDE.pdf)**
 
