@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:mysterium-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -71,7 +70,7 @@ Wire Wire Line
 Connection ~ 2850 6800
 Connection ~ 2850 7400
 $Comp
-L Type-C:USB_C_GCT_USB4085 USB1
+L mysterium-pcb-rescue:USB_C_GCT_USB4085-Type-C USB1
 U 1 1 5D127DE0
 P 2050 7050
 F 0 "USB1" H 1881 8087 60  0000 C CNN
@@ -415,7 +414,7 @@ F 3 "" H 6950 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH RESET1
+L mysterium-pcb-rescue:SW_PUSH-keyboard_parts RESET1
 U 1 1 5D18D9C7
 P 7200 8050
 F 0 "RESET1" H 7200 8305 50  0000 C CNN
@@ -522,7 +521,7 @@ Wire Wire Line
 	7650 8050 7500 8050
 Connection ~ 7650 8050
 $Comp
-L keyboard_parts:SW_PUSH BOOT1
+L mysterium-pcb-rescue:SW_PUSH-keyboard_parts BOOT1
 U 1 1 5D1B3FAF
 P 7200 7450
 F 0 "BOOT1" H 7200 7705 50  0000 C CNN
@@ -550,7 +549,7 @@ boot
 Text Notes 15500 11050 2    50   ~ 0
 1
 $Comp
-L Connector:AVR-ISP-6 J1
+L mysterium-pcb-rescue:AVR-ISP-6-Connector J1
 U 1 1 5D525B77
 P 7050 6550
 F 0 "J1" H 7250 7100 50  0000 R CNN
@@ -574,7 +573,7 @@ $EndComp
 NoConn ~ 4600 7000
 Connection ~ 5300 6100
 $Comp
-L MCU_Microchip_ATmega:ATmega32A-PU U1
+L mysterium-pcb-rescue:ATmega32A-PU-MCU_Microchip_ATmega U1
 U 1 1 5D1828C7
 P 5200 8100
 F 0 "U1" H 5000 8250 50  0000 C CNN
@@ -585,7 +584,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontr
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW0
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW0
 U 1 1 5D9B8E9A
 P 1750 1100
 F 0 "SW0" H 1750 1333 60  0000 C CNN
@@ -618,7 +617,7 @@ F 3 "~" V 1450 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW16
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW16
 U 1 1 5D9CDE80
 P 1750 1700
 F 0 "SW16" H 1750 1933 60  0000 C CNN
@@ -640,7 +639,7 @@ F 3 "~" V 1450 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW33
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW33
 U 1 1 5D9CFC9A
 P 1750 2300
 F 0 "SW33" H 1750 2533 60  0000 C CNN
@@ -662,7 +661,7 @@ F 3 "~" V 1450 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW50
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW50
 U 1 1 5D9D1726
 P 1750 2900
 F 0 "SW50" H 1750 3133 60  0000 C CNN
@@ -684,7 +683,7 @@ F 3 "~" V 1450 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW64
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW64
 U 1 1 5D9D3742
 P 1750 3500
 F 0 "SW64" H 1750 3733 60  0000 C CNN
@@ -706,7 +705,7 @@ F 3 "~" V 1450 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW77
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW77
 U 1 1 5D9D69BD
 P 1750 4100
 F 0 "SW77" H 1750 4333 60  0000 C CNN
@@ -717,7 +716,7 @@ F 3 "" H 1750 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW65
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW65
 U 1 1 5D962534
 P 2600 3500
 F 0 "SW65" H 2600 3733 60  0000 C CNN
@@ -728,7 +727,7 @@ F 3 "" H 2600 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW52
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW52
 U 1 1 5D962545
 P 2600 2900
 F 0 "SW52" H 2600 3133 60  0000 C CNN
@@ -739,7 +738,7 @@ F 3 "" H 2600 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW79
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW79
 U 1 1 5D962556
 P 2600 4100
 F 0 "SW79" H 2600 4333 60  0000 C CNN
@@ -750,7 +749,7 @@ F 3 "" H 2600 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW17
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW17
 U 1 1 5D962567
 P 2600 1700
 F 0 "SW17" H 2600 1933 60  0000 C CNN
@@ -761,7 +760,7 @@ F 3 "" H 2600 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW34
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW34
 U 1 1 5D962578
 P 2600 2300
 F 0 "SW34" H 2600 2533 60  0000 C CNN
@@ -827,7 +826,7 @@ F 3 "~" V 2300 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW66
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW66
 U 1 1 5D96D1C9
 P 3450 3500
 F 0 "SW66" H 3450 3733 60  0000 C CNN
@@ -838,7 +837,7 @@ F 3 "" H 3450 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW53
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW53
 U 1 1 5D96D1DA
 P 3450 2900
 F 0 "SW53" H 3450 3133 60  0000 C CNN
@@ -849,7 +848,7 @@ F 3 "" H 3450 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW81
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW81
 U 1 1 5D96D1EB
 P 3450 4100
 F 0 "SW81" H 3450 4333 60  0000 C CNN
@@ -860,7 +859,7 @@ F 3 "" H 3450 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW18
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW18
 U 1 1 5D96D1FC
 P 3450 1700
 F 0 "SW18" H 3450 1933 60  0000 C CNN
@@ -871,7 +870,7 @@ F 3 "" H 3450 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW35
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW35
 U 1 1 5D96D20D
 P 3450 2300
 F 0 "SW35" H 3450 2533 60  0000 C CNN
@@ -915,7 +914,7 @@ F 3 "~" V 3150 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW1
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW1
 U 1 1 5D96D251
 P 3450 1100
 F 0 "SW1" H 3450 1333 60  0000 C CNN
@@ -959,7 +958,7 @@ F 3 "~" V 3150 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW54
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW54
 U 1 1 5D978FCD
 P 4300 2900
 F 0 "SW54" H 4300 3133 60  0000 C CNN
@@ -970,7 +969,7 @@ F 3 "" H 4300 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW36
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW36
 U 1 1 5D978FDE
 P 4300 2300
 F 0 "SW36" H 4300 2533 60  0000 C CNN
@@ -981,7 +980,7 @@ F 3 "" H 4300 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW2
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW2
 U 1 1 5D978FEF
 P 4300 1100
 F 0 "SW2" H 4300 1333 60  0000 C CNN
@@ -992,7 +991,7 @@ F 3 "" H 4300 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW19
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW19
 U 1 1 5D979000
 P 4300 1700
 F 0 "SW19" H 4300 1933 60  0000 C CNN
@@ -1036,7 +1035,7 @@ F 3 "~" V 4000 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW67
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW67
 U 1 1 5D979044
 P 4300 3500
 F 0 "SW67" H 4300 3733 60  0000 C CNN
@@ -1069,7 +1068,7 @@ F 3 "~" V 4000 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW55
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW55
 U 1 1 5D985C85
 P 5100 2900
 F 0 "SW55" H 5100 3133 60  0000 C CNN
@@ -1080,7 +1079,7 @@ F 3 "" H 5100 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW37
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW37
 U 1 1 5D985C96
 P 5100 2300
 F 0 "SW37" H 5100 2533 60  0000 C CNN
@@ -1091,7 +1090,7 @@ F 3 "" H 5100 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW3
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW3
 U 1 1 5D985CA7
 P 5100 1100
 F 0 "SW3" H 5100 1333 60  0000 C CNN
@@ -1102,7 +1101,7 @@ F 3 "" H 5100 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW20
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW20
 U 1 1 5D985CB8
 P 5100 1700
 F 0 "SW20" H 5100 1933 60  0000 C CNN
@@ -1146,7 +1145,7 @@ F 3 "~" V 4800 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW68
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW68
 U 1 1 5D985CFC
 P 5100 3500
 F 0 "SW68" H 5100 3733 60  0000 C CNN
@@ -1179,7 +1178,7 @@ F 3 "~" V 4800 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW56
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW56
 U 1 1 5D990A64
 P 5900 2900
 F 0 "SW56" H 5900 3133 60  0000 C CNN
@@ -1190,7 +1189,7 @@ F 3 "" H 5900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW38
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW38
 U 1 1 5D990A75
 P 5900 2300
 F 0 "SW38" H 5900 2533 60  0000 C CNN
@@ -1201,7 +1200,7 @@ F 3 "" H 5900 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW4
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW4
 U 1 1 5D990A86
 P 5900 1100
 F 0 "SW4" H 5900 1333 60  0000 C CNN
@@ -1212,7 +1211,7 @@ F 3 "" H 5900 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW21
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW21
 U 1 1 5D990A97
 P 5900 1700
 F 0 "SW21" H 5900 1933 60  0000 C CNN
@@ -1256,7 +1255,7 @@ F 3 "~" V 5600 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW69
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW69
 U 1 1 5D990ADB
 P 5900 3500
 F 0 "SW69" H 5900 3733 60  0000 C CNN
@@ -1289,7 +1288,7 @@ F 3 "~" V 5600 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW22
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW22
 U 1 1 5D99E254
 P 6700 1700
 F 0 "SW22" H 6700 1933 60  0000 C CNN
@@ -1300,7 +1299,7 @@ F 3 "" H 6700 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW70
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW70
 U 1 1 5D99E265
 P 6700 3500
 F 0 "SW70" H 6700 3733 60  0000 C CNN
@@ -1322,7 +1321,7 @@ F 3 "~" V 6400 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW39
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW39
 U 1 1 5D99E287
 P 6700 2300
 F 0 "SW39" H 6700 2533 60  0000 C CNN
@@ -1344,7 +1343,7 @@ F 3 "~" V 6400 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW5
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW5
 U 1 1 5D99E2A9
 P 6700 1100
 F 0 "SW5" H 6700 1333 60  0000 C CNN
@@ -1388,7 +1387,7 @@ F 3 "~" V 6400 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW83
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW83
 U 1 1 5D99E2ED
 P 6700 4100
 F 0 "SW83" H 6700 4333 60  0000 C CNN
@@ -1410,7 +1409,7 @@ F 3 "~" V 6400 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW57
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW57
 U 1 1 5D99E30F
 P 6700 2900
 F 0 "SW57" H 6700 3133 60  0000 C CNN
@@ -1421,7 +1420,7 @@ F 3 "" H 6700 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW40
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW40
 U 1 1 5D9B6BD6
 P 7450 2300
 F 0 "SW40" H 7450 2533 60  0000 C CNN
@@ -1432,7 +1431,7 @@ F 3 "" H 7450 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW58
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW58
 U 1 1 5D9B6BE7
 P 7450 2900
 F 0 "SW58" H 7450 3133 60  0000 C CNN
@@ -1454,7 +1453,7 @@ F 3 "~" V 8750 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW7
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW7
 U 1 1 5D9B6C09
 P 8250 1100
 F 0 "SW7" H 8250 1333 60  0000 C CNN
@@ -1465,7 +1464,7 @@ F 3 "" H 8250 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW24
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW24
 U 1 1 5D9B6C1A
 P 8250 1700
 F 0 "SW24" H 8250 1933 60  0000 C CNN
@@ -1476,7 +1475,7 @@ F 3 "" H 8250 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW42
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW42
 U 1 1 5D9B6C2B
 P 9050 2300
 F 0 "SW42" H 9050 2533 60  0000 C CNN
@@ -1498,7 +1497,7 @@ F 3 "~" V 8750 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW41
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW41
 U 1 1 5D9B6C4D
 P 8250 2300
 F 0 "SW41" H 8250 2533 60  0000 C CNN
@@ -1531,7 +1530,7 @@ F 3 "~" V 7950 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW6
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW6
 U 1 1 5D9B6C80
 P 7450 1100
 F 0 "SW6" H 7450 1333 60  0000 C CNN
@@ -1542,7 +1541,7 @@ F 3 "" H 7450 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW23
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW23
 U 1 1 5D9B6C91
 P 7450 1700
 F 0 "SW23" H 7450 1933 60  0000 C CNN
@@ -1575,7 +1574,7 @@ F 3 "~" V 7150 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW59
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW59
 U 1 1 5D9B6CC4
 P 8250 2900
 F 0 "SW59" H 8250 3133 60  0000 C CNN
@@ -1608,7 +1607,7 @@ F 3 "~" V 7950 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW71
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW71
 U 1 1 5D9B6CF7
 P 7450 3500
 F 0 "SW71" H 7450 3733 60  0000 C CNN
@@ -1630,7 +1629,7 @@ F 3 "~" V 7150 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW25
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW25
 U 1 1 5D9B6D19
 P 9050 1700
 F 0 "SW25" H 9050 1933 60  0000 C CNN
@@ -1641,7 +1640,7 @@ F 3 "" H 9050 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW72
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW72
 U 1 1 5D9B6D2A
 P 8250 3500
 F 0 "SW72" H 8250 3733 60  0000 C CNN
@@ -1663,7 +1662,7 @@ F 3 "~" V 7950 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW73
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW73
 U 1 1 5D9B6D4C
 P 9050 3500
 F 0 "SW73" H 9050 3733 60  0000 C CNN
@@ -1718,7 +1717,7 @@ F 3 "~" V 8750 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW8
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW8
 U 1 1 5D9B6DA1
 P 9050 1100
 F 0 "SW8" H 9050 1333 60  0000 C CNN
@@ -1740,7 +1739,7 @@ F 3 "~" V 8750 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW85
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW85
 U 1 1 5D9B6DC3
 P 9050 4100
 F 0 "SW85" H 9050 4333 60  0000 C CNN
@@ -1762,7 +1761,7 @@ F 3 "~" V 8750 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW60
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW60
 U 1 1 5D9B6DE5
 P 9050 2900
 F 0 "SW60" H 9050 3133 60  0000 C CNN
@@ -1773,7 +1772,7 @@ F 3 "" H 9050 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW26
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW26
 U 1 1 5D9D0D3A
 P 9850 1700
 F 0 "SW26" H 9850 1933 60  0000 C CNN
@@ -1784,7 +1783,7 @@ F 3 "" H 9850 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW43
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW43
 U 1 1 5D9D0D4B
 P 9850 2300
 F 0 "SW43" H 9850 2533 60  0000 C CNN
@@ -1806,7 +1805,7 @@ F 3 "~" V 9550 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW74
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW74
 U 1 1 5D9D0D7E
 P 9850 3500
 F 0 "SW74" H 9850 3733 60  0000 C CNN
@@ -1839,7 +1838,7 @@ F 3 "~" V 9550 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW86
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW86
 U 1 1 5D9D0DB1
 P 9850 4100
 F 0 "SW86" H 9850 4333 60  0000 C CNN
@@ -1872,7 +1871,7 @@ F 3 "~" V 9550 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW61
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW61
 U 1 1 5D9D0DF5
 P 9850 2900
 F 0 "SW61" H 9850 3133 60  0000 C CNN
@@ -1883,7 +1882,7 @@ F 3 "" H 9850 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW9
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW9
 U 1 1 5DFA567A
 P 10700 1100
 F 0 "SW9" H 10700 1333 60  0000 C CNN
@@ -1894,7 +1893,7 @@ F 3 "" H 10700 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW27
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW27
 U 1 1 5DAC576D
 P 10700 1700
 F 0 "SW27" H 10700 1933 60  0000 C CNN
@@ -1905,7 +1904,7 @@ F 3 "" H 10700 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW44
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW44
 U 1 1 5DACAF0B
 P 10700 2300
 F 0 "SW44" H 10700 2533 60  0000 C CNN
@@ -1916,7 +1915,7 @@ F 3 "" H 10700 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW62
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW62
 U 1 1 5DAD121D
 P 10700 2900
 F 0 "SW62" H 10700 3133 60  0000 C CNN
@@ -1971,7 +1970,7 @@ F 3 "~" V 10400 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW10
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW10
 U 1 1 5DAF3578
 P 11450 1100
 F 0 "SW10" H 11450 1333 60  0000 C CNN
@@ -2004,7 +2003,7 @@ F 3 "~" V 11150 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW28
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW28
 U 1 1 5DAF35AB
 P 11450 1700
 F 0 "SW28" H 11450 1933 60  0000 C CNN
@@ -2026,7 +2025,7 @@ F 3 "~" V 11150 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW45
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW45
 U 1 1 5DAF35CD
 P 11450 2300
 F 0 "SW45" H 11450 2533 60  0000 C CNN
@@ -2037,7 +2036,7 @@ F 3 "" H 11450 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW88
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW88
 U 1 1 5DAF35EF
 P 11450 4100
 F 0 "SW88" H 11450 4333 60  0000 C CNN
@@ -2059,7 +2058,7 @@ F 3 "~" V 11150 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW29
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW29
 U 1 1 5DB46C93
 P 12250 1700
 F 0 "SW29" H 12250 1933 60  0000 C CNN
@@ -2081,7 +2080,7 @@ F 3 "~" V 11950 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW46
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW46
 U 1 1 5DB46CB5
 P 12250 2300
 F 0 "SW46" H 12250 2533 60  0000 C CNN
@@ -2092,7 +2091,7 @@ F 3 "" H 12250 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW11
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW11
 U 1 1 5DB46CC6
 P 12250 1100
 F 0 "SW11" H 12250 1333 60  0000 C CNN
@@ -2136,7 +2135,7 @@ F 3 "~" V 11950 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW63
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW63
 U 1 1 5DB4D5C5
 P 12250 2900
 F 0 "SW63" H 12250 3133 60  0000 C CNN
@@ -2147,7 +2146,7 @@ F 3 "" H 12250 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW75
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW75
 U 1 1 5DB4D5D6
 P 12250 3500
 F 0 "SW75" H 12250 3733 60  0000 C CNN
@@ -2180,7 +2179,7 @@ F 3 "~" V 12800 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW12
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW12
 U 1 1 5DB6ECE0
 P 13100 1100
 F 0 "SW12" H 13100 1333 60  0000 C CNN
@@ -2202,7 +2201,7 @@ F 3 "~" V 12800 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW90
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW90
 U 1 1 5DB72F3E
 P 13100 4100
 F 0 "SW90" H 13100 4333 60  0000 C CNN
@@ -2213,7 +2212,7 @@ F 3 "" H 13100 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW13
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW13
 U 1 1 5DB8EEFE
 P 13900 1100
 F 0 "SW13" H 13900 1333 60  0000 C CNN
@@ -2235,7 +2234,7 @@ F 3 "~" V 13600 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW30
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW30
 U 1 1 5DB93117
 P 13900 1700
 F 0 "SW30" H 13900 1933 60  0000 C CNN
@@ -2257,7 +2256,7 @@ F 3 "~" V 13600 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW47
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW47
 U 1 1 5DB9983D
 P 13900 2300
 F 0 "SW47" H 13900 2533 60  0000 C CNN
@@ -2279,7 +2278,7 @@ F 3 "~" V 13600 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW92
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW92
 U 1 1 5DBA374F
 P 13900 4100
 F 0 "SW92" H 13900 4333 60  0000 C CNN
@@ -2323,7 +2322,7 @@ F 3 "~" V 14350 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW48
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW48
 U 1 1 5DBB23E1
 P 14650 2300
 F 0 "SW48" H 14650 2533 60  0000 C CNN
@@ -2334,7 +2333,7 @@ F 3 "" H 14650 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW93
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW93
 U 1 1 5DBB23F2
 P 14650 4100
 F 0 "SW93" H 14650 4333 60  0000 C CNN
@@ -2345,7 +2344,7 @@ F 3 "" H 14650 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW14
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW14
 U 1 1 5DBB2403
 P 14650 1100
 F 0 "SW14" H 14650 1333 60  0000 C CNN
@@ -2378,7 +2377,7 @@ F 3 "~" V 14350 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW31
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW31
 U 1 1 5DBB2436
 P 14650 1700
 F 0 "SW31" H 14650 1933 60  0000 C CNN
@@ -2411,7 +2410,7 @@ F 3 "~" V 15150 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW49
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW49
 U 1 1 5DBC3995
 P 15450 2300
 F 0 "SW49" H 15450 2533 60  0000 C CNN
@@ -2422,7 +2421,7 @@ F 3 "" H 15450 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW94
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW94
 U 1 1 5DBC39A6
 P 15450 4100
 F 0 "SW94" H 15450 4333 60  0000 C CNN
@@ -2433,7 +2432,7 @@ F 3 "" H 15450 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW15
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW15
 U 1 1 5DBC39B7
 P 15450 1100
 F 0 "SW15" H 15450 1333 60  0000 C CNN
@@ -2466,7 +2465,7 @@ F 3 "~" V 15150 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW32
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW32
 U 1 1 5DBC39EA
 P 15450 1700
 F 0 "SW32" H 15450 1933 60  0000 C CNN
@@ -2488,7 +2487,7 @@ F 3 "~" V 14350 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW76
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW76
 U 1 1 5DBD1BC6
 P 14650 3500
 F 0 "SW76" H 14650 3733 60  0000 C CNN
@@ -2503,7 +2502,7 @@ Wire Wire Line
 Wire Wire Line
 	650  2900 650  2800
 $Comp
-L keyboard_parts:KEYSW SW78
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW78
 U 1 1 5DC142C8
 P 1650 4700
 F 0 "SW78" H 1650 4933 60  0000 C CNN
@@ -2522,7 +2521,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 4700 1950 4700
 $Comp
-L keyboard_parts:KEYSW SW80
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW80
 U 1 1 5DFA567B
 P 2500 4700
 F 0 "SW80" H 2500 4933 60  0000 C CNN
@@ -2533,7 +2532,7 @@ F 3 "" H 2500 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW82
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW82
 U 1 1 5DC217A7
 P 3350 4700
 F 0 "SW82" H 3350 4933 60  0000 C CNN
@@ -2544,7 +2543,7 @@ F 3 "" H 3350 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW84
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW84
 U 1 1 5DC32FED
 P 6550 4700
 F 0 "SW84" H 6550 4933 60  0000 C CNN
@@ -2555,7 +2554,7 @@ F 3 "" H 6550 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW87
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW87
 U 1 1 5DC7D93D
 P 9700 4700
 F 0 "SW87" H 9700 4933 60  0000 C CNN
@@ -2566,7 +2565,7 @@ F 3 "" H 9700 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW89
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW89
 U 1 1 5DFA567C
 P 11300 4700
 F 0 "SW89" H 11300 4933 60  0000 C CNN
@@ -2577,7 +2576,7 @@ F 3 "" H 11300 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW SW91
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW91
 U 1 1 5DC84925
 P 12950 4700
 F 0 "SW91" H 12950 4933 60  0000 C CNN
@@ -2644,7 +2643,7 @@ Wire Wire Line
 	2050 2300 2050 2900
 Connection ~ 2050 2300
 Wire Wire Line
-	2050 2900 2050 3500
+	2050 2900 2050 3300
 Connection ~ 2050 2900
 Wire Wire Line
 	2050 3500 2050 4100
@@ -2805,10 +2804,10 @@ Wire Wire Line
 	12550 1700 12550 2300
 Connection ~ 12550 2300
 Wire Wire Line
-	12550 2300 12550 2900
+	12550 2300 12550 2700
 Connection ~ 12550 2900
 Wire Wire Line
-	12550 2900 12550 3500
+	12550 2900 12550 3200
 Wire Wire Line
 	13400 1100 13400 4100
 Connection ~ 13400 4100
@@ -3257,7 +3256,7 @@ Wire Wire Line
 	15150 1200 15150 1100
 Connection ~ 1450 2900
 $Comp
-L keyboard_parts:KEYSW SW51
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW51
 U 1 1 5DC0A9CA
 P 950 2800
 F 0 "SW51" H 950 2800 60  0000 C CNN
@@ -3392,15 +3391,13 @@ Text GLabel 1175 2600 0    50   Input ~ 0
 row2
 Text GLabel 1150 3200 0    50   Input ~ 0
 row3
-Text GLabel 1150 3800 0    50   Input ~ 0
+Text GLabel -200 3800 0    50   Input ~ 0
 row4
 Text GLabel 1150 4400 0    50   Input ~ 0
 row5
 Wire Wire Line
 	1450 4400 1150 4400
 Connection ~ 1450 4400
-Wire Wire Line
-	1450 3800 1150 3800
 Connection ~ 1450 3800
 Wire Wire Line
 	1450 3200 1150 3200
@@ -3464,4 +3461,115 @@ Text GLabel 5800 6400 2    50   Input ~ 0
 col0
 NoConn ~ 5800 8200
 NoConn ~ 5800 8300
+$Comp
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW96
+U 1 1 60C628EF
+P 12975 2900
+F 0 "SW96" H 12975 3133 60  0000 C CNN
+F 1 "KEYSW" H 12975 2800 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_ISOEnter_PCB_ReversedStabilizer" H 12975 2900 60  0001 C CNN
+F 3 "" H 12975 2900 60  0000 C CNN
+	1    12975 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW95
+U 1 1 60C650DB
+P 11375 2900
+F 0 "SW95" H 11375 3133 60  0000 C CNN
+F 1 "KEYSW" H 11375 2800 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11375 2900 60  0001 C CNN
+F 3 "" H 11375 2900 60  0000 C CNN
+	1    11375 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 3000 12675 3000
+Wire Wire Line
+	12675 3000 12675 2900
+Connection ~ 11950 3000
+Wire Wire Line
+	12550 3200 13275 3200
+Wire Wire Line
+	13275 3200 13275 2900
+Connection ~ 12550 3200
+Wire Wire Line
+	12550 3200 12550 3500
+Wire Wire Line
+	11075 2900 11075 2700
+Wire Wire Line
+	11075 2700 11850 2700
+Wire Wire Line
+	11675 2900 11900 2900
+Wire Wire Line
+	11900 2900 11900 2700
+Wire Wire Line
+	11900 2700 12550 2700
+Connection ~ 12550 2700
+Wire Wire Line
+	12550 2700 12550 2900
+Wire Wire Line
+	11850 2300 11950 2300
+Wire Wire Line
+	11850 2300 11850 2700
+Connection ~ 11950 2300
+$Comp
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW97
+U 1 1 60D6080C
+P 1050 3500
+F 0 "SW97" H 1050 3733 60  0000 C CNN
+F 1 "KEYSW" H 1050 3400 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 1050 3500 60  0001 C CNN
+F 3 "" H 1050 3500 60  0000 C CNN
+	1    1050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  3500 750  3600
+Wire Wire Line
+	750  3600 1450 3600
+Connection ~ 1450 3600
+Wire Wire Line
+	1350 3500 1350 3300
+Wire Wire Line
+	1350 3300 2050 3300
+Connection ~ 2050 3300
+Wire Wire Line
+	2050 3300 2050 3500
+$Comp
+L mysterium-pcb-rescue:KEYSW-keyboard_parts SW98
+U 1 1 60DA9736
+P 325 3500
+F 0 "SW98" H 325 3733 60  0000 C CNN
+F 1 "KEYSW" H 325 3400 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 325 3500 60  0001 C CNN
+F 3 "" H 325 3500 60  0000 C CNN
+	1    325  3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	625  3500 625  3925
+Wire Wire Line
+	625  3925 4600 3925
+Wire Wire Line
+	4600 3925 4600 3500
+Connection ~ 4600 3500
+$Comp
+L Device:D_Small D98
+U 1 1 60DCF1D3
+P 25 3700
+F 0 "D98" V 71  3632 50  0000 R CNN
+F 1 "D_Small" V -20 3632 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 25  3700 50  0001 C CNN
+F 3 "~" V 25  3700 50  0001 C CNN
+	1    25   3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-200 3800 25   3800
+Connection ~ 25   3800
+Wire Wire Line
+	25   3800 1450 3800
+Wire Wire Line
+	25   3600 25   3500
 $EndSCHEMATC
