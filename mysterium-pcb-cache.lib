@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Generic_Conn_01x04
+#
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_CP1_Small
 #
 DEF Device_CP1_Small C 0 10 N N 1 F N
@@ -161,6 +184,44 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Rotary_Encoder_Switch
+#
+DEF Device_Rotary_Encoder_Switch SW 0 10 Y N 1 F N
+F0 "SW" 0 260 50 H V C CNN
+F1 "Device_Rotary_Encoder_Switch" 0 -260 50 H V C CNN
+F2 "" -150 160 50 H I C CNN
+F3 "" 0 260 50 H I C CNN
+$FPLIST
+ RotaryEncoder*Switch*
+$ENDFPLIST
+DRAW
+A -15 -2 108 -899 899 0 1 10 N -15 -110 -15 105
+C -150 0 10 0 1 0 F
+C -15 0 75 0 1 10 N
+C 170 -40 5 0 1 10 N
+C 170 40 5 0 1 10 N
+S -200 200 200 -200 0 1 10 f
+P 2 0 1 10 -25 -70 -25 70 N
+P 2 0 1 10 -15 -70 -15 70 N
+P 2 0 1 10 -5 70 -5 -70 N
+P 2 0 1 10 150 0 135 0 N
+P 2 0 1 10 150 40 150 -40 N
+P 3 0 1 0 -200 -100 -150 -100 -150 -80 N
+P 3 0 1 0 -200 100 -150 100 -150 80 N
+P 3 0 1 10 10 -120 -20 -110 5 -95 N
+P 3 0 1 10 10 115 -20 105 5 90 N
+P 3 0 1 10 200 -100 170 -100 170 -40 N
+P 3 0 1 10 200 100 170 100 170 40 N
+P 4 0 1 0 -200 0 -150 0 -150 -40 -130 -80 N
+P 4 0 1 0 -170 0 -150 0 -150 40 -130 80 N
+X A A -300 100 100 R 50 50 1 1 P
+X B B -300 -100 100 R 50 50 1 1 P
+X C C -300 0 100 R 50 50 1 1 P
+X S1 S1 300 100 100 L 50 50 1 1 P
+X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
