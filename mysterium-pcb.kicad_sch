@@ -4406,7 +4406,7 @@
     (property "Value" "3.6V" (id 1) (at 77.47 182.88 90)
       (effects (font (size 0.9906 0.9906)) (justify left))
     )
-    (property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" (id 2) (at 74.93 184.15 90)
+    (property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal_Zener" (id 2) (at 74.93 184.15 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 74.93 184.15 90)
@@ -4425,7 +4425,7 @@
     (property "Value" "3.6V" (id 1) (at 72.39 182.88 90)
       (effects (font (size 0.9906 0.9906)) (justify left))
     )
-    (property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" (id 2) (at 77.47 184.15 90)
+    (property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal_Zener" (id 2) (at 77.47 184.15 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.47 184.15 90)
@@ -9226,10 +9226,10 @@
       (reference "D94") (unit 1) (value "D_Small") (footprint "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005d184b7b"
-      (reference "D95") (unit 1) (value "3.6V") (footprint "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal")
+      (reference "D95") (unit 1) (value "3.6V") (footprint "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal_Zener")
     )
     (path "/00000000-0000-0000-0000-00005d184d75"
-      (reference "D96") (unit 1) (value "3.6V") (footprint "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal")
+      (reference "D96") (unit 1) (value "3.6V") (footprint "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal_Zener")
     )
     (path "/00000000-0000-0000-0000-000060dcf1d3"
       (reference "D98") (unit 1) (value "D_Small") (footprint "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal")
