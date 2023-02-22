@@ -1,0 +1,15 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.10-88a1d61d58~90~ubuntu21.04.1*
+G04 #@! TF.CreationDate,2021-08-16T11:56:13+02:00*
+G04 #@! TF.ProjectId,mysterium-plate,6d797374-6572-4697-956d-2d706c617465,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Bot*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.1.10-88a1d61d58~90~ubuntu21.04.1) date 2021-08-16 11:56:13*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*

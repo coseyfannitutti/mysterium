@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "mysterium-pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/mysterium-pcb-rescue.lib")(options "")(descr ""))
+  (lib (name "kbd")(type "Legacy")(uri "${KIPRJMOD}/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+)
